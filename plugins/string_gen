@@ -118,7 +118,7 @@ async def generate_session(bot, msg, telethon=False):
         except KeyError:
             pass
         try:
-            await client(JoinChannelRequest("@LegendBot_AI"))
+            await client(JoinChannelRequest("@miss_x_network"))
         except BaseException:
             pass
         try:
